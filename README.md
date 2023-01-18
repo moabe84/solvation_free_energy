@@ -8,7 +8,7 @@ In this project the aim is to develop machine (ML) learning models to predict th
 
 **Step 2:**
 
-Using the [RDKit package](https://www.rdkit.org/) and "structure_preparation_RDKit.ipynb" script, the structures are prepared for the DFT calculations. The molecules are first converted to SMILES (smiles.smi file) and then to XYZ coordinates (XYZ_file folder).
+Using the [RDKit package](https://www.rdkit.org/) and "structure_preparation_RDKit.ipynb" script, the structures are prepared for the DFT calculations. The molecules are first converted to SMILES (smiles.smi file) and then to XYZ coordinates.
 
 **Step 3:**
 
