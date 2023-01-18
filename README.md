@@ -20,4 +20,4 @@ The data is collected in a CSV file (solv_free_energy_dataset.csv) constituted S
 
 **Step 5:**
 
-A Graph Convolutional Network model is trained on the reference dataset using the [DeepChem package](https://deepchem.io/) and "GraphConvolutionalModel_DeepChem.ipynb" script.  
+A Graph Convolutional Network model is trained on the reference dataset using the "GraphConvolutionalModel_DeepChem.ipynb" script and [DeepChem package](https://deepchem.io/).  
