@@ -8,10 +8,10 @@ In this project the aim is to develop machine (ML) learning models to predict th
 
 **Step 2:**
 
-Using the RDKit package and "structure_preparation_RDKit.ipynb" script, the structures are prepared for the DFT calculations. The molecules are first converted to SMILES (smiles.smi file) and then to XYZ coordinates (XYZ_file folder).
+Using the [RDKit package](https://www.rdkit.org/) and "structure_preparation_RDKit.ipynb" script, the structures are prepared for the DFT calculations. The molecules are first converted to SMILES (smiles.smi file) and then to XYZ coordinates (XYZ_file folder).
 
 **Step 3:**
 
-The DFT solvation free energy calculations are performed using the ORCA package using the wB97X-D4 functional and the def2-TZVP basis set at STP condition (T = 298.15 K and P = 1 atm).
+The DFT solvation free energy calculations are performed using the [ORCA package](https://orcaforum.kofo.mpg.de) using the wB97X-D4 functional and the def2-TZVP basis set at STP condition (T = 298.15 K and P = 1 atm).
 
 **Step 4:**
