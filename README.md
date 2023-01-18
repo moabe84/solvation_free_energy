@@ -12,6 +12,6 @@ Using the [RDKit package](https://www.rdkit.org/) and "structure_preparation_RDK
 
 **Step 3:**
 
-The DFT solvation free energy calculations are performed using the [ORCA package](https://orcaforum.kofo.mpg.de) using the wB97X-D4 functional and the def2-TZVP basis set at STP condition (T = 298.15 K and P = 1 atm).
+The DFT solvation free energy calculations are performed at STP condition (T = 298.15 K and P = 1 atm) using the [ORCA package](https://orcaforum.kofo.mpg.de) at the very accurate level of theroy: wB97X-D4 functional and  def2-TZVP basis set.
 
 **Step 4:**
