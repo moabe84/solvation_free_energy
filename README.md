@@ -1,6 +1,6 @@
 **Project Discription**
 
-In this project the aim is to develop machine (ML) learning models to predict the solvation free energy of small drug molecules. The ML models are trained on a data set obtained from high level DFT calculations.  
+In this project the aim is to develop machine learning (ML) models to predict the solvation free energy of small drug molecules. The ML models are trained on a data set obtained from high level DFT calculations.  
 
 **Step 1: Data Collection**
 
@@ -16,4 +16,8 @@ The DFT solvation free energy calculations are performed at STP condition (T = 2
 
 **Step 4: ML Model Training**
 
-A Graph Convolutional Network model is trained on the reference dataset (solv_free_energy_dataset.csv) using the "GraphConvolutionalModel_DeepChem.ipynb" script and [DeepChem package](https://deepchem.io/). 
+In this step, ML models are trained on the reference dataset (solv_free_energy_dataset.csv) using [DeepChem package](https://deepchem.io/).
+
+1) Model: Graph Convolutional Network
+
+   Script: "GraphConvolutionalModel_DeepChem.ipynb"   
