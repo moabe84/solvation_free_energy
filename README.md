@@ -10,9 +10,9 @@ In this project the aim is to develop machine learning (ML) models to predict th
 
 Using the [RDKit package](https://www.rdkit.org/) and "structure_preparation_RDKit.ipynb" script, the structures are prepared for the DFT calculations. The molecules are first converted to SMILES (smiles.smi file) and then to XYZ coordinates.
 
-**Step 3: Solvation Free Energy Calculation**
+**Step 3: Solvation Free Energy Calculations**
 
-The DFT solvation free energy calculations are performed at STP condition (T = 298.15 K and P = 1 atm) using the [ORCA](https://orcaforum.kofo.mpg.de) quantum chemistry program package at a very accurate level of theory: wB97X-D4 functional and def2-TZVP basis set.
+The DFT solvation free energy calculations are performed at STP condition (T = 298.15 K and P = 1 atm) using the [ORCA](https://orcaforum.kofo.mpg.de) quantum chemistry program package at a very accurate level of theory: ωB97X-D4 functional and def2-TZVP basis set.
 
 **Step 4: ML Model Training**
 
