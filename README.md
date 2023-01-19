@@ -16,7 +16,7 @@ The DFT solvation free energy calculations are performed at STP condition (T = 2
 
 **Step 4: ML Model Training**
 
-In this step, ML models are trained on the reference dataset (solv_free_energy_dataset.csv) using [DeepChem package](https://deepchem.io/).
+In this step, ML models are trained on the reference dataset (solv_free_energy_dataset.csv) using [DeepChem package](https://deepchem.io/):
 
 1) Model: Graph Convolutional Network (Feature(s): SMILES and Label(s): Solvation Free Energy)
 
