@@ -18,6 +18,8 @@ The DFT solvation free energy calculations are performed at STP condition (T = 2
 
 In this step, ML models are trained on the reference dataset (solv_free_energy_dataset.csv) using [DeepChem package](https://deepchem.io/).
 
-1) Model: Graph Convolutional Network
+1) Model: Graph Convolutional Network (Feature(s): SMILES and Label(s): Solvation Free Energy)
 
-   Script: "GraphConvolutionalModel_DeepChem.ipynb"   
+   Script: "GraphConvolutionalModel_DeepChem.ipynb"  
+   
+   Pearson R2 Score: Train = 0.99; Test = 0.80; Validation = 0.80
