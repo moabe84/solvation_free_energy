@@ -22,4 +22,4 @@ In this step, ML models are trained on the reference dataset (solv_free_energy_d
 
    Script: "GraphConvolutionalModel_DeepChem.ipynb"  
    
-   Quality of the model in terms of Pearson R2 Score: Train = 0.99; Test = 0.80; Validation = 0.80
+   Pearson R2 Score: Train = 0.99; Test = 0.80; Validation = 0.80
