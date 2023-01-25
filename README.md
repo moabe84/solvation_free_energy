@@ -4,7 +4,7 @@ In this project the aim is to develop machine learning (ML) models to predict th
 
 **Step 1: Data Collection**
 
-2586 small neutral drug molecules containing H, C, N, O, F, P, S, Cl, and Br atoms with one aromatic ring and molecular weight less than 150 are taken from the ChEMBL database. The "molecules_ChEMBL.sdf" file contains all these molecules.
+2586 small neutral drug molecules containing H, C, N, and O atoms with one aromatic ring and molecular weight less than 150 are taken from the ChEMBL database. The "molecules_ChEMBL.sdf" file contains all these molecules.
 
 **Step 2: Data Preparation**
 
