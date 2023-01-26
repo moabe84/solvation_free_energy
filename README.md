@@ -12,7 +12,7 @@ Using the [RDKit package](https://www.rdkit.org/) and "structure_preparation_RDK
 
 **Step 3: Solvation Free Energy Calculations**
 
-The DFT solvation free energy calculations are performed at STP condition (i.e. T = 298.15 K and P = 1 atm) using the [ORCA](https://orcaforum.kofo.mpg.de) quantum chemistry program package at a very accurate level of theory: ωB97X-V functional with D4 London dispersion correction and def2-TZVP basis set.
+The DFT solvation free energy calculations are performed at STP condition (i.e. T = 298.15 K and P = 1 atm) using the [ORCA](https://orcaforum.kofo.mpg.de) quantum chemistry program package at an accurate level of theory: ωB97X-V functional with D4 London dispersion correction and def2-TZVP basis set.
 
 **Step 4: ML Model Training**
 
