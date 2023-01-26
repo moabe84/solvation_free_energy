@@ -8,7 +8,7 @@ In this project the aim is to develop machine learning (ML) models to predict th
 
 **Step 2: Data Preparation**
 
-Using the [RDKit package](https://www.rdkit.org/) and "structure_preparation_RDKit.ipynb" script, the structures are prepared for the DFT calculations. The structures are first converted to SMILES (smiles.smi file), the molecules with only H, C, N, and O atoms are collected and then converted to XYZ coordinates.
+Using the [RDKit package](https://www.rdkit.org/) and "structure_preparation_RDKit.ipynb" script, the structures are prepared for the DFT calculations. The structures are first converted to SMILES (smiles.smi file), then those ones with only H, C, N, and O atoms are collected and finally converted to XYZ coordinates.
 
 **Step 3: Solvation Free Energy Calculations**
 
