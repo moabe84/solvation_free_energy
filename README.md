@@ -26,16 +26,12 @@ ML models are trained on the reference dataset (solv_free_energy_dataset_HCNO.cs
 
 2) Model: Graph Convolutional Neural Network Model
 
-   Pearson R2 Score: Train = 0.99; Test = 0.86; Validation = 0.83
+   Pearson R2 Score: Train = 0.99; Test = 0.81; Validation = 0.83
    
 3) Model: Multitask Regression Model
 
-   Pearson R2 Score: Train = 0.99; Test = 0.68; Validation = 0.75
-   
-4) Model: Pytorch Linear Regression Model
+   Pearson R2 Score: Train = 0.99; Test = 0.77; Validation = 0.71
+    
+4) Model: SKlearn Linear Regression Model
 
-   Pearson R2 Score: Train = 0.71; Test = 0.74; Validation = 0.71
-   
-5) Model: SKlearn Linear Regression Model
-
-   Pearson R2 Score: Train = 0.65; Test = 0.66; Validation = 0.66
+   Pearson R2 Score: Train = 0.65; Test = 0.66; Validation = 0.69
