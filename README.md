@@ -16,22 +16,22 @@ The DFT solvation free energy calculations are performed at STP condition (i.e. 
 
 **Step 4: ML Model Training**
 
-ML models are trained on the reference dataset (solv_free_energy_dataset_HCNO.csv) using [DeepChem package](https://deepchem.io/) and the "MLModelsTrianing_DeepChem.ipynb" script:
+ML models are trained on the reference dataset (solv_free_energy_dataset_HCNO.csv) using [DeepChem package](https://deepchem.io/) and the "MLModelsTrianing_DeepChem.ipynb" script. The data is spilit into training (90%) and test (10%) sets.
 
 **Results:**
 
 1) Model: Directed Message Passing Neural Network Model
 
-   Pearson R2 Score: Train = 0.99; Test = 0.85; Validation = 0.86
+   Pearson R2 Score: Train = 0.99; Test = 0.85
 
 2) Model: Graph Convolutional Neural Network Model
 
-   Pearson R2 Score: Train = 0.99; Test = 0.81; Validation = 0.83
+   Pearson R2 Score: Train = 0.99; Test = 0.81
    
-3) Model: Multitask Regression Model
+3) Model: SKlearn Linear Regression Model
 
-   Pearson R2 Score: Train = 0.99; Test = 0.77; Validation = 0.71
+   Pearson R2 Score: Train = 0.99; Test = 0.77
     
-4) Model: SKlearn Linear Regression Model
+4) Model: Multitask Regression Model
 
-   Pearson R2 Score: Train = 0.65; Test = 0.66; Validation = 0.69
+   Pearson R2 Score: Train = 0.65; Test = 0.66
