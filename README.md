@@ -1,6 +1,6 @@
 # Project Discription
 
-In this project the aim is to develop machine learning (ML) models to predict the solvation free energy of small drug molecules. The ML models are trained on a data set obtained from high level DFT calculations.  
+In this project the aim is to develop regression machine learning (ML) models to predict the solvation free energy of small drug molecules. The ML models are trained on a data set obtained from high level DFT calculations.  
 
 **Step 1: Data Collection**
 
